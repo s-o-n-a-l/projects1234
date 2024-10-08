@@ -1,0 +1,61 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+
+    }
+
+    .container{
+        background-color: #ffffff;
+    }
+
+    form{
+        display:flex;
+        justify-content: space-between;
+
+    }
+
+    form input[type="text"] {
+        padding: 10px;
+        font-size: 18px;
+
+    }
+
+    form input[type="submit"] {
+        padding: 10px 20px;
+        border:none;
+        background-color: #de1310;
+        color:#ffffff;
+        font-size: 18px;
+        border-radius:5px;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+        }
+
+    form input[type="submit"]:hover{
+        background-color: #000000;
+    }    
+
+    /*.icon img {
+        }*/
+
+    .temp{
+        font-size: 50px;
+    }   
+    
+    .desc{
+        font-size: 50px;
+    }
+
+    .details{
+        font-size: 50px;
+        flex-wrap: wrap;
+
+    }
+
+    .details>div{
+        text-align: left;
+        font-size: 60px;
+
+    }
+
